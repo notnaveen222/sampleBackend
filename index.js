@@ -12,4 +12,4 @@ app.post("/post", function (req, res) {
 });
 
 app.use(express.json());
-app.listen(3000);
+module.exports = app;
